@@ -1,59 +1,67 @@
 # 🐾 Wildlife Image Classification System
 
-This project presents a deep learning-based Wildlife Image Classification system built using TensorFlow/Keras and deployed with Streamlit.
+A deep learning-based Wildlife Image Classification web application built using **TensorFlow/Keras** and deployed with **Streamlit**.
 
-The application allows users to upload animal images and receive real-time predictions from a trained Convolutional Neural Network (CNN) model.
+🔗 **Live Application:**  
+https://wildlife-classifier-fg6v8wavvxnuzbjhdzjmhz.streamlit.app/
 
 ---
 
 ## 📌 Overview
 
-Modern deep learning models have achieved remarkable performance in image classification tasks. However, building an end-to-end deployable system requires more than just model training.
+This project presents an end-to-end wildlife image classification system powered by a Convolutional Neural Network (CNN).
 
-This project focuses on:
+The application allows users to upload animal images and receive real-time predictions through an interactive web interface.
 
-- Designing and training a CNN-based wildlife classifier
-- Implementing image preprocessing pipelines
-- Integrating the trained model into a Streamlit web application
-- Deploying the system on Streamlit Community Cloud
+It demonstrates the complete machine learning pipeline:
 
-The goal is to create a lightweight, accessible, and user-friendly AI application for wildlife species identification.
+- Data preprocessing
+- Model development
+- Model integration
+- Web application development
+- Cloud deployment
 
 ---
 
 ## 🎯 Key Objectives
 
 - Develop a CNN-based wildlife classification model
-- Perform image preprocessing and normalization
-- Enable real-time image prediction through a web interface
-- Deploy the model for public access
-- Demonstrate end-to-end ML workflow (Training → Integration → Deployment)
+- Implement efficient image preprocessing
+- Enable real-time predictions via web interface
+- Deploy the model publicly using Streamlit Cloud
+- Showcase a production-ready ML workflow
 
 ---
 
 ## 🧠 Technical Implementation
 
-- Model: Convolutional Neural Network (CNN)
-- Framework: TensorFlow / Keras
-- Frontend & Deployment: Streamlit
-- Image Handling: Pillow (PIL)
-- Numerical Processing: NumPy
+- **Model Architecture:** Convolutional Neural Network (CNN)
+- **Framework:** TensorFlow / Keras
+- **Frontend & Deployment:** Streamlit
+- **Image Processing:** Pillow (PIL)
+- **Numerical Operations:** NumPy
 
 ---
 
 ## ⚙️ How It Works
 
-1. User uploads an animal image.
-2. The image is resized to match model input dimensions.
+1. The user uploads an animal image.
+2. The image is resized to match the model's input dimensions.
 3. Pixel values are normalized.
-4. The trained CNN model performs classification.
-5. The predicted wildlife class is displayed instantly.
+4. The trained CNN processes the image.
+5. The predicted wildlife category is displayed instantly.
 
 ---
 
-## 🌍 Live Application
+## 🚀 How to Use the Live Application
 
-🔗 https://wildlife-classifier-fg6v8wavvxnuzbjhdzjmhz.streamlit.app/
+1. Open the live app:  
+   https://wildlife-classifier-fg6v8wavvxnuzbjhdzjmhz.streamlit.app/
+
+2. Click on **Upload Image**.
+3. Select an animal image from your device.
+4. Wait for the model to process the image.
+5. View the predicted animal category displayed on the screen.
 
 ---
 
@@ -64,9 +72,61 @@ The goal is to create a lightweight, accessible, and user-friendly AI applicatio
 ```bash
 git clone https://github.com/Anand99-rai/Wildlife-Classifier.git
 cd Wildlife-Classifier
+```
 
-2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 
+```bash
+pip install -r requirements.txt
+```
 
+## 3️⃣ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+The application will run at:
+
+```
+http://localhost:8501
+```
+
+---
+
+## 📂 Project Structure
+
+```
+Wildlife-Classifier/
+│
+├── app.py
+├── animal_classifier_model.h5
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 📈 Future Enhancements
+
+- Add prediction confidence score
+- Improve model accuracy with larger dataset
+- Add more wildlife categories
+- Implement Grad-CAM for model interpretability
+- Evaluate model robustness under noisy or low-light conditions
+- Enhance UI/UX design
+
+---
+
+## 👨‍💻 Author
+
+**Anand Rai**  
+GitHub: https://github.com/Anand99-rai  
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
 
 
