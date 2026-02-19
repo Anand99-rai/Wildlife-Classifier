@@ -66,41 +66,7 @@ git clone https://github.com/Anand99-rai/Wildlife-Classifier.git
 cd Wildlife-Classifier
 
 2️⃣ Install Dependencies
-pip install -r requirements.txt
-
-3️⃣ Run the Streamlit App
-streamlit run app.py
 
 
-The application will run at:
-
-http://localhost:8501
-
-📂 **Project Structure**
-Wildlife-Classifier/
-│
-├── app.py
-├── animal_classifier_model.h5
-├── requirements.txt
-└── README.md
-
-## 📈 Future Enhancements
-
-- Add confidence score visualization
-- Support multiple animal detections
-- Improve classification accuracy with larger dataset
-- Add Grad-CAM visualization for interpretability
-- Evaluate robustness under noisy or low-light conditions
-
----
-
-## 👨‍💻 Author
-
-Anand Rai
-GitHub: https://github.com/Anand99-rai
-
-⭐ Support
-
-If you found this project useful, consider giving it a star on GitHub!
 
 
