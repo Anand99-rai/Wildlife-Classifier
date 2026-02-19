@@ -57,6 +57,33 @@ The goal is to create a lightweight, accessible, and user-friendly AI applicatio
 
 ---
 
+# 💻 How to Run Locally
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Anand99-rai/Wildlife-Classifier.git
+cd Wildlife-Classifier
+
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+3️⃣ Run the Streamlit App
+streamlit run app.py
+
+
+The application will run at:
+
+http://localhost:8501
+
+📂 **Project Structure**
+Wildlife-Classifier/
+│
+├── app.py
+├── animal_classifier_model.h5
+├── requirements.txt
+└── README.md
+
 ## 📈 Future Enhancements
 
 - Add confidence score visualization
@@ -70,3 +97,10 @@ The goal is to create a lightweight, accessible, and user-friendly AI applicatio
 ## 👨‍💻 Author
 
 Anand Rai
+GitHub: https://github.com/Anand99-rai
+
+⭐ Support
+
+If you found this project useful, consider giving it a star on GitHub!
+
+
